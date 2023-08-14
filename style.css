@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 90vh;
+    width: 100%;
+    background: url("snow.jpg");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.login-box{
+    background-color: white;
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 450px;   /*extra 1*/
+    border-radius: 10px;
+    font-size: 14px;
+    position: absolute;
+    backdrop-filter: blur(1.5px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.login{
+    width: 100%;
+    /* background-color: red; */
+}
+.form-group{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+input[type="text"].form-control,input[type="password"].form-control{
+    font-size: 15px;
+    outline: none;
+    width: calc(100%-38px);
+    border: 3px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.5s ease; 
+    font-family: 'Montserrat', sans-serif; 
+}
+input[type="text"].form-control:hover,input[type="password"].form-control:hover{
+    border :3px solid rebeccapurple;
+    
+}
+input[type="text"].form-control:focus,input[type="password"].form-control:focus{
+    border :3px solid blueviolet;
+}
+.forget{
+    text-align: right;
+    padding-bottom: 20px;
+    margin-left:171px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+button{
+    outline: none;
+    background:#E91E63;
+    padding: 13px;
+    display: block;
+    width: 100%;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3897f0;
+    color: #fff;
+}
+button:hover{
+    box-shadow: 5px 5px 5px #CCC;
+}
+a{
+    color: #42A5F5;
+}
+.name{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.seperator{
+    width: 100%;
+    border-top: 1px dashed grey;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+a{
+    color: blue;
+    font-weight: 600;
+}
+i.size{
+    margin-top: 15px;
+    font-size:30px;
+    color: blue;
+    transition: all 0.7s ease;
+}
+i.gle{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size:30px; 
+    color :lightgreen;
+    transition: all 0.7s ease;
+}
+i:hover{
+    color: black;
+}
